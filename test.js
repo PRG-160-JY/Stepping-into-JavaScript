@@ -1,11 +1,11 @@
-function getAverage (a,b,c,d,e,) {
+function getDifference (a,b) {
 	
-	var average = (a + b + c + d + e) / 5;
-	console.log(average);
-	return average;
+	var difference = a - b;
+	console.log(difference);
+	return difference;
 	
 	
 }
 
-var myResult = getAverage(1,2,3,4,5);
-console.log("the average is " + myResult);
+var myResult = getDifference(99,16);
+console.log("the difference is " + myResult);
