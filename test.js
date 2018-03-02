@@ -1,11 +1,16 @@
-function getName (a,b) {
+function getAverage (a,b){
 	
-	var name = a + b;
-	console.log(name);
-	return name;
+	var average = (a + b) / 2; //local variable
+	console.log(average);
+	return average;
+}
+
+var myResult = getAverage(7,11); //global variable
+
+function logResult (){
 	
+	console.log("the average is " + myResult + "inside the function");
 	
 }
 
-var myName = getName("Jose ", "Yepez");
-console.log("My name is " + myResult);
+logResult();
