@@ -1,11 +1,11 @@
-function getDifference (a,b) {
+function getName (a,b) {
 	
-	var difference = a - b;
-	console.log(difference);
-	return difference;
+	var name = a + b;
+	console.log(name);
+	return name;
 	
 	
 }
 
-var myResult = getDifference(99,16);
-console.log("the difference is " + myResult);
+var myName = getName("Jose ", "Yepez");
+console.log("My name is " + myResult);
